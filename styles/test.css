@@ -1,0 +1,14 @@
+h1 {
+  color: rgb(126, 75, 220);
+  text-align: center;
+}
+p {
+  color: bisque;
+  background-color: cadetblue;
+  padding: 20px 50px;
+  font-size: 25px;
+}
+q {
+  color: rgb(211, 214, 58);
+  font-style: italic;
+}
