@@ -5,6 +5,7 @@ body {
 }
 .header {
   display: flex;
+  align-items: center;
   border-bottom: 1px solid #000;
   font-size: 20px;
   padding: 10px 20px;
@@ -22,10 +23,11 @@ ul {
   list-style-type: none;
   padding-left: 0;
   margin: 0;
+  gap: 30px;
 }
-ul > li:not(:last-child) {
+/* ul > li:not(:last-child) {
   margin-right: 30px;
-}
+} */
 .box {
   display: flex;
   margin-bottom: 30px;
@@ -58,10 +60,17 @@ section {
   margin-bottom: 20px;
 }
 .link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
   background-color: rebeccapurple;
   color: white;
   padding: 8px 15px;
 }
-h1 + section {
+/* h1 + section {
   background-color: moccasin;
+} */
+.results {
+  display: flex;
+  gap: 10px;
 }
